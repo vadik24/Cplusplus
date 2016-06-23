@@ -1,0 +1,4 @@
+static_cast<type> 
+convert if it need to
+inline function for compiler to call it instead use macro
+constructor(x,y):X(X),Y(Y){}

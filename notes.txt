@@ -1,0 +1,8 @@
+static_cast<type> 
+convert if it need to
+inline function for compiler to call it instead use macro
+constructor(x,y):X(X),Y(Y){}
+char* hello = new char[size]; // #  of char in str
+int * p = new int(9); // 9 value
+delete p
+delete []s;

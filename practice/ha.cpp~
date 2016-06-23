@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void){
+char *hmm = "HI";
+int i = 0;
+  puts("HI");
+  i++;
+for(int i = 0; i <5;i++)
+if(ptrs[i] == 'E')
+ puts("HE");
+puts("HM");
+return 0;
+}

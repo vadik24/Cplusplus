@@ -1,0 +1,19 @@
+/*Write the class AddElements here*/
+template<class T> class AddElements{
+    public:
+    T strings;
+    AddElements(T test){
+        strings = test;
+    }
+    T add(T test){
+          return strings + test;
+    }
+    T concatenate(T test){
+        
+      strings +=test;
+        return strings;
+    }
+};
+
+AddElements<double> test("MUAHAHA");
+test.add("hehehe");
