@@ -11,7 +11,7 @@ public:
 //paper: public Wood(parameter works)
 class Paper: public Wood{
 public:
-  using Wood:: prints;
+  //using Wood:: prints; use function from WOod
   void prints(){
     hello = 3;
     std::cout << "sub" << std::endl;
