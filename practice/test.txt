@@ -1,0 +1,5 @@
+<unknown>:0: (_Z13printNodeListPK4Node:0x400d48) 3 executions
+<unknown>:0: (_Z16mergeLinkedListLP4NodeS0_:0x400e95) 1 executions
+<unknown>:0: (_Z41__static_initialization_and_destruction_0ii:0x400f9c) 1 executions
+<unknown>:0: (_GLOBAL__sub_I_main:0x400fdf) 1 executions
+<unknown>:0: (_ZN4NodeC1Ei:0x400ffa) 20000 executions

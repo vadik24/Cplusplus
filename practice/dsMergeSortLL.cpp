@@ -12,7 +12,7 @@ int main(){
   //create first linked list sorted
   Node *leftS = new Node(1);
   Node *n1 = leftS;
-  for(int i =1;i<6;i++){
+  for(int i =1;i<10000;i++){
     leftS->next = new Node(i*2+1);
     leftS = leftS->next;
 
@@ -20,7 +20,7 @@ int main(){
   //create second linked list sorted
   Node *rightS = new Node(0);
   Node *n2 = rightS;
-  for(int i =1;i<6;i++){
+  for(int i =1;i<10000;i++){
     rightS->next = new Node(i*2);
     rightS = rightS->next;
   }
