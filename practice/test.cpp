@@ -16,5 +16,6 @@ int main(int argc, char** argv)
   int cost2 = myTicket2->calculatePriceInDollars();
   cout << "This other ticket will cost $" << cost2 << endl;
   delete myTicket2;
+  
   return 0;
 }
